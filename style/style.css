@@ -1,0 +1,37 @@
+
+@font-face {
+    font-family: 'el_rio_lobonormal';
+    src: url('fonts/elriott2-webfont.woff2') format('woff2'),
+         url('fonts/elriott2-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+font-family: 'el_rio_lobonormal',sans-serif,courier,impact,arial;
+font-style: normal;
+
+}
+
+div{
+
+	display: inline-block;/*para separar los div por parafos*/
+	background-color: #FF0000;
+	width: 20%; /*para darle un ancho el div*/
+	height: 250%;/*alto*/
+    float: left;/**/
+    overflow:  scroll;/*para observar los elementods dentro del cajon*/
+    padding: 25px;
+    border: 5px solid #FF940D;
+    margin: 10px;
+
+
+}
+span{
+	display: inline-block;
+	width: 10%;	
+	float: right;/**/
+}
+
+
